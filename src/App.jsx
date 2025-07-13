@@ -39,7 +39,7 @@ const App = () => {
         Flights Near Balc
       </h1>
 
-      {loading && <p className="text-center">Loading flight data...</p>}
+      {loading && <p className="text-center">Loading flight data now...</p>}
       {error && <p className="text-center text-red-500">{error}</p>}
 
       {!loading && !error && (
