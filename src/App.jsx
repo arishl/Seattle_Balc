@@ -8,10 +8,10 @@ const App = () => {
 
   // Approximate bounding box for Seattle ZIP code 98122
   const seattle98122Bounds = {
-    lamin: 47.58125,
-    lamax: 47.65375,
-    lomin: -122.352,
-    lomax: -122.258,
+    lamin: 47.38125,
+    lamax: 47.85375,
+    lomin: -122.452,
+    lomax: -122.158,
   };
 
   useEffect(() => {
